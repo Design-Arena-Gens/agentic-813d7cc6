@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background-color: #f6fdfd;
+}
+
+body {
+  @apply bg-white text-neutral font-sans antialiased;
+}
+
+main {
+  @apply min-h-screen bg-gradient-to-b from-white via-slate-50 to-white;
+}
+
+.glass-panel {
+  @apply backdrop-blur-xl bg-white/70 shadow-lg rounded-3xl border border-white/40;
+}
